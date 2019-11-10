@@ -1,0 +1,28 @@
+schema {
+    query: Query
+    mutation: Mutation
+}
+
+type Query {
+    allEmployees(competenceCenter: CompetenceCenter): [Employee]
+}
+
+type Mutation {
+    createEmployee(firstName: String!, lastName: String!, email: String, competenceCenter: [CompetenceCenter]): Employee!
+}
+
+type Employee {
+    id: ID!
+    firstName: String!
+    lastName: String!
+    email: String
+    competenceCenters: [CompetenceCenter]
+}
+
+enum CompetenceCenter {
+    JAVA
+    DOTNET
+    FRONTEND
+    TESTING
+    INFRA
+}
