@@ -1,8 +1,8 @@
-package com.axxes.graphql.java.web;
+package com.axxes.graphql.java.servlet.web;
 
-import com.axxes.graphql.java.model.Mutation;
-import com.axxes.graphql.java.model.Query;
-import com.axxes.graphql.java.repository.EmployeeRepository;
+import com.axxes.graphql.java.servlet.model.Mutation;
+import com.axxes.graphql.java.servlet.model.Query;
+import com.axxes.graphql.java.servlet.repository.EmployeeRepository;
 import com.coxautodev.graphql.tools.SchemaParser;
 import graphql.servlet.SimpleGraphQLHttpServlet;
 import graphql.servlet.config.GraphQLConfiguration;

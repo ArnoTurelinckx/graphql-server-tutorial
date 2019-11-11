@@ -1,12 +1,12 @@
-package com.axxes.graphql.java.model;
+package com.axxes.graphql.java.servlet.model;
 
-import com.axxes.graphql.java.repository.EmployeeRepository;
+import com.axxes.graphql.java.servlet.repository.EmployeeRepository;
 import com.coxautodev.graphql.tools.GraphQLMutationResolver;
-import com.coxautodev.graphql.tools.GraphQLQueryResolver;
+import org.springframework.stereotype.Component;
 
-import java.util.List;
 import java.util.Set;
 
+@Component
 public class Mutation implements GraphQLMutationResolver {
 
     private final EmployeeRepository employeeRepository;

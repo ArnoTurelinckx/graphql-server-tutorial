@@ -16,23 +16,19 @@
     </parent>
 
     <properties>
-<!--        <graphql-java.version>2019-10-25T08-51-57-a634053</graphql-java.version>-->
         <graphql-java-tools.version>5.6.1</graphql-java-tools.version>
         <graphql-java-servlet.version>8.0.0</graphql-java-servlet.version>
+        <graphql-spring-boot-starter.version>5.10.0</graphql-spring-boot-starter.version>
         <graphiql-spring-boot-starter.version>5.10.0</graphiql-spring-boot-starter.version>
     </properties>
 
     <modules>
-        <module>graphql-java</module>
+        <module>graphql-java-servlet</module>
+        <module>graphql-spring-boot-starter</module>
     </modules>
 
     <dependencyManagement>
         <dependencies>
-<!--            <dependency>-->
-<!--                <groupId>com.graphql-java</groupId>-->
-<!--                <artifactId>graphql-java</artifactId>-->
-<!--                <version>${graphql-java.version}</version>-->
-<!--            </dependency>-->
             <dependency>
                 <groupId>com.graphql-java-kickstart</groupId>
                 <artifactId>graphql-java-tools</artifactId>
@@ -42,6 +38,11 @@
                 <groupId>com.graphql-java-kickstart</groupId>
                 <artifactId>graphql-java-servlet</artifactId>
                 <version>${graphql-java-servlet.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.graphql-java-kickstart</groupId>
+                <artifactId>graphql-spring-boot-starter</artifactId>
+                <version>${graphql-spring-boot-starter.version}</version>
             </dependency>
 
             <dependency>

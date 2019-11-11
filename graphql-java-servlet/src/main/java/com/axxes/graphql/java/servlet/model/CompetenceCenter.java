@@ -1,4 +1,4 @@
-package com.axxes.graphql.java.model;
+package com.axxes.graphql.java.servlet.model;
 
 public enum CompetenceCenter {
     JAVA, DOTNET, FRONTEND, TESTING, INFRA

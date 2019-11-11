@@ -1,7 +1,7 @@
-package com.axxes.graphql.java.repository;
+package com.axxes.graphql.java.servlet.repository;
 
-import com.axxes.graphql.java.model.CompetenceCenter;
-import com.axxes.graphql.java.model.Employee;
+import com.axxes.graphql.java.servlet.model.CompetenceCenter;
+import com.axxes.graphql.java.servlet.model.Employee;
 import org.jetbrains.annotations.NotNull;
 import org.springframework.stereotype.Repository;
 

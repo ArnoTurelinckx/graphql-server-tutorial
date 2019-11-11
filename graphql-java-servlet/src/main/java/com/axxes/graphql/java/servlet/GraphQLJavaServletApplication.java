@@ -1,16 +1,16 @@
-package com.axxes.graphql.java;
+package com.axxes.graphql.java.servlet;
 
-import com.axxes.graphql.java.web.GraphQLEndpoint;
+import com.axxes.graphql.java.servlet.web.GraphQLEndpoint;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-public class GraphQLJavaApplication {
+public class GraphQLJavaServletApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(GraphQLJavaApplication.class, args);
+        SpringApplication.run(GraphQLJavaServletApplication.class, args);
     }
 
     @Bean
