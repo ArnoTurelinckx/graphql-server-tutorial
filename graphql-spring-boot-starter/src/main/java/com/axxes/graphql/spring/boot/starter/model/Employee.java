@@ -1,4 +1,4 @@
-package com.axxes.graphql.java.servlet.model;
+package com.axxes.graphql.spring.boot.starter.model;
 
 import java.util.Set;
 

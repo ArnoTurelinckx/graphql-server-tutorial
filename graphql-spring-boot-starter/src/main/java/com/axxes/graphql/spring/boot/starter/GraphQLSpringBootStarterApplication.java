@@ -1,4 +1,4 @@
-package com.axxes.graphql.java.servlet;
+package com.axxes.graphql.spring.boot.starter;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

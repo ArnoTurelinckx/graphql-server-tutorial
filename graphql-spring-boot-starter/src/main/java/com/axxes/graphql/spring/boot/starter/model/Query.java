@@ -1,6 +1,6 @@
-package com.axxes.graphql.java.servlet.model;
+package com.axxes.graphql.spring.boot.starter.model;
 
-import com.axxes.graphql.java.servlet.repository.EmployeeRepository;
+import com.axxes.graphql.spring.boot.starter.repository.EmployeeRepository;
 import com.coxautodev.graphql.tools.GraphQLQueryResolver;
 import org.springframework.stereotype.Component;
 
