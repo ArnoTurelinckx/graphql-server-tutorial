@@ -9,11 +9,12 @@
     <artifactId>graphql-spring-boot-starter</artifactId>
     <packaging>jar</packaging>
 
-    <properties>
-        <java.version>11</java.version>
-    </properties>
-
     <dependencies>
+        <dependency>
+            <groupId>com.axxes</groupId>
+            <artifactId>core</artifactId>
+        </dependency>
+        
         <dependency>
             <groupId>com.graphql-java-kickstart</groupId>
             <artifactId>graphql-java-tools</artifactId>
