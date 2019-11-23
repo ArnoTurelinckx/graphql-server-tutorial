@@ -15,6 +15,6 @@ public class GraphQLJavaServletApplication {
 
     @Bean
     public ServletRegistrationBean graphQLServletRegistrationBean() {
-        return new ServletRegistrationBean(new GraphQLEndpoint(), "/graphql");
+        return new ServletRegistrationBean<>(new GraphQLEndpoint(), "/graphql");
     }
 }
