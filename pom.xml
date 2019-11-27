@@ -23,6 +23,7 @@
         <graphiql-spring-boot-starter.version>5.10.0</graphiql-spring-boot-starter.version>
         <spqr.version>0.10.0</spqr.version>
         <graphql-spqr-spring-boot-starter.version>0.0.4</graphql-spqr-spring-boot-starter.version>
+        <graphql-kotlin-spring-server.version>1.4.2</graphql-kotlin-spring-server.version>
     </properties>
 
     <modules>
@@ -31,6 +32,7 @@
         <module>graphql-spring-boot-starter</module>
         <module>graphql-spqr</module>
         <module>graphql-spqr-spring-boot-starter</module>
+        <module>graphql-kotlin-spring-server</module>
     </modules>
 
     <dependencyManagement>
@@ -65,6 +67,11 @@
                 <groupId>io.leangen.graphql</groupId>
                 <artifactId>graphql-spqr-spring-boot-starter</artifactId>
                 <version>${graphql-spqr-spring-boot-starter.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.expediagroup</groupId>
+                <artifactId>graphql-kotlin-spring-server</artifactId>
+                <version>${graphql-kotlin-spring-server.version}</version>
             </dependency>
 
             <dependency>
