@@ -8,6 +8,13 @@ data class EmployeeDto(
         val competenceCenters: List<CompetenceCenterDto>
 )
 
+data class EmployeeInput(
+        val firstName: String,
+        val lastName: String,
+        val email: String,
+        val competenceCenters: List<CompetenceCenterDto>
+)
+
 enum class CompetenceCenterDto {
     JAVA, DOTNET, FRONTEND, TESTING, INFRA
 }
